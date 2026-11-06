@@ -1,0 +1,35 @@
+# Compiled Java
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.settings/
+.project
+.classpath
+.factorypath
+
+# OS / system files
+.DS_Store
+Thumbs.db
+desktop.ini
+.Spotlight-V100
+.Trashes
+$RECYCLE.BIN/
+
+# Editor / misc junk
+*.swp
+*.swo
+*.swn
+*~
+~$*
+*.tmp
+*.bak
+*.log
+.vscode-server/

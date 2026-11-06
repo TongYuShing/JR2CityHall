@@ -1,0 +1,48 @@
+Smart Delivery Fleet Management System (SDFMS)
+c = create fleet, s = set current fleet, a = add driver, m = modify driver role,
+d = delete driver, sf = show fleet, sa = display all fleets, cn = change fleet name,
+u = undo, r = redo, l = list undo/redo, x = exit system
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- Enter fleet type (v = delivery van | r = refrigerated truck) :- Fleet ID:- Fleet Name:- Delivery van fleet is created.
+Current fleet is changed to F001.
+Smart Delivery Fleet Management System (SDFMS)
+c = create fleet, s = set current fleet, a = add driver, m = modify driver role,
+d = delete driver, sf = show fleet, sa = display all fleets, cn = change fleet name,
+u = undo, r = redo, l = list undo/redo, x = exit system
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- Please input driver information (id, name):- Role (1 = van driver | 2 = courier driver) :- Driver is added.
+Smart Delivery Fleet Management System (SDFMS)
+c = create fleet, s = set current fleet, a = add driver, m = modify driver role,
+d = delete driver, sf = show fleet, sa = display all fleets, cn = change fleet name,
+u = undo, r = redo, l = list undo/redo, x = exit system
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- Please input driver information (id, name):- Role (1 = van driver | 2 = courier driver) :- Driver is added.
+Smart Delivery Fleet Management System (SDFMS)
+c = create fleet, s = set current fleet, a = add driver, m = modify driver role,
+d = delete driver, sf = show fleet, sa = display all fleets, cn = change fleet name,
+u = undo, r = redo, l = list undo/redo, x = exit system
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- Delivery Van Fleet CENTRAL EXPRESS (F001)
+Van Driver:
+d001, Alex Chan
+Courier Driver:
+d002, Jamie Lee
+Smart Delivery Fleet Management System (SDFMS)
+c = create fleet, s = set current fleet, a = add driver, m = modify driver role,
+d = delete driver, sf = show fleet, sa = display all fleets, cn = change fleet name,
+u = undo, r = redo, l = list undo/redo, x = exit system
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- Enter fleet type (v = delivery van | r = refrigerated truck) :- Fleet ID:- Fleet Name:- Refrigerated truck fleet is created.
+Current fleet is changed to F102.
+Smart Delivery Fleet Management System (SDFMS)
+c = create fleet, s = set current fleet, a = add driver, m = modify driver role,
+d = delete driver, sf = show fleet, sa = display all fleets, cn = change fleet name,
+u = undo, r = redo, l = list undo/redo, x = exit system
+The current fleet is F102 FROST LINE.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- Delivery Van Fleet CENTRAL EXPRESS (F001)
+Refrigerated Truck Fleet FROST LINE (F102)
+Smart Delivery Fleet Management System (SDFMS)
+c = create fleet, s = set current fleet, a = add driver, m = modify driver role,
+d = delete driver, sf = show fleet, sa = display all fleets, cn = change fleet name,
+u = undo, r = redo, l = list undo/redo, x = exit system
+The current fleet is F102 FROST LINE.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- Thank you for using SDFMS. System terminated.

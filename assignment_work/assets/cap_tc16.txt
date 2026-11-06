@@ -1,0 +1,7 @@
+Smart Delivery Fleet Management System (SDFMS)
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sf
+No current fleet is set!
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- a
+No current fleet is set!
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- x
+Thank you for using SDFMS. System terminated.

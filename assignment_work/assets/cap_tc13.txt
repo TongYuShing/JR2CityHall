@@ -1,0 +1,126 @@
+Smart Delivery Fleet Management System (SDFMS)
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- c
+Enter fleet type (v = delivery van | r = refrigerated truck) :- v
+Fleet ID:- F001
+Fleet Name:- CENTRAL EXPRESS
+Delivery van fleet is created.
+Current fleet is changed to F001.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- a
+Please input driver information (id, name):- d001, Alex Chan
+Role (1 = van driver | 2 = courier driver) :- 1
+Driver is added.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- a
+Please input driver information (id, name):- d002, Jamie Lee
+Role (1 = van driver | 2 = courier driver) :- 2
+Driver is added.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sf
+Delivery Van Fleet CENTRAL EXPRESS (F001)
+Van Driver:
+d001, Alex Chan
+Courier Driver:
+d002, Jamie Lee
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- c
+Enter fleet type (v = delivery van | r = refrigerated truck) :- r
+Fleet ID:- F102
+Fleet Name:- FROST LINE
+Refrigerated truck fleet is created.
+Current fleet is changed to F102.
+The current fleet is F102 FROST LINE.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sa
+Delivery Van Fleet CENTRAL EXPRESS (F001)
+Refrigerated Truck Fleet FROST LINE (F102)
+The current fleet is F102 FROST LINE.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- a
+Please input driver information (id, name):- d101, Morgan Wong
+Role (1 = refrigerated-truck driver | 2 = cold-chain delivery driver) :- 1
+Driver is added.
+The current fleet is F102 FROST LINE.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- a
+Please input driver information (id, name):- d102, Taylor Lam
+Role (1 = refrigerated-truck driver | 2 = cold-chain delivery driver) :- 2
+Driver is added.
+The current fleet is F102 FROST LINE.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sf
+Refrigerated Truck Fleet FROST LINE (F102)
+Refrigerated-truck Driver:
+d101, Morgan Wong
+Cold-chain Delivery Driver:
+d102, Taylor Lam
+The current fleet is F102 FROST LINE.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- s
+Please input fleet ID:- F001
+Changed current fleet to F001.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sa
+Delivery Van Fleet CENTRAL EXPRESS (F001)
+Refrigerated Truck Fleet FROST LINE (F102)
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- m
+Please input driver ID:- d001
+Role (1 = van driver | 2 = courier driver) :- 2
+Driver role is updated.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sf
+Delivery Van Fleet CENTRAL EXPRESS (F001)
+Van Driver: NIL
+Courier Driver:
+d001, Alex Chan
+d002, Jamie Lee
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- d
+Please input driver ID:- d002
+Driver is deleted.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sf
+Delivery Van Fleet CENTRAL EXPRESS (F001)
+Van Driver: NIL
+Courier Driver:
+d001, Alex Chan
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- cn
+Please input new name of the current fleet:- METRO EXPRESS
+Fleet name is updated.
+The current fleet is F001 METRO EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sf
+Delivery Van Fleet METRO EXPRESS (F001)
+Van Driver: NIL
+Courier Driver:
+d001, Alex Chan
+The current fleet is F001 METRO EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- l
+Undo List
+Create delivery van fleet, F001, CENTRAL EXPRESS
+Add driver, d001, Alex Chan, van driver
+Add driver, d002, Jamie Lee, courier driver
+Create refrigerated truck fleet, F102, FROST LINE
+Add driver, d101, Morgan Wong, refrigerated-truck driver
+Add driver, d102, Taylor Lam, cold-chain delivery driver
+Modify driver role, d001, courier driver
+Delete driver, d002
+Change fleet name, F001, METRO EXPRESS
+-- End of undo list --
+Redo List
+-- End of redo list --
+The current fleet is F001 METRO EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- u
+Command (Change fleet name, F001, METRO EXPRESS) is undone.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- u
+Command (Delete driver, d002) is undone.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- u
+Command (Modify driver role, d001, courier driver) is undone.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- sf
+Delivery Van Fleet CENTRAL EXPRESS (F001)
+Van Driver:
+d001, Alex Chan
+Courier Driver:
+d002, Jamie Lee
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- x
+Thank you for using SDFMS. System terminated.

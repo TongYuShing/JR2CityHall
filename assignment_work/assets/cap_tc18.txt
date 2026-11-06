@@ -1,0 +1,29 @@
+Smart Delivery Fleet Management System (SDFMS)
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- c
+Enter fleet type (v = delivery van | r = refrigerated truck) :- v
+Fleet ID:- F001
+Fleet Name:- CENTRAL EXPRESS
+Delivery van fleet is created.
+Current fleet is changed to F001.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- u
+Command (Create delivery van fleet, F001, CENTRAL EXPRESS) is undone.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- u
+No command can be undone.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- u
+No command can be undone.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- r
+Command (Create delivery van fleet, F001, CENTRAL EXPRESS) is redone.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- r
+No command can be redone.
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- l
+Undo List
+Create delivery van fleet, F001, CENTRAL EXPRESS
+-- End of undo list --
+Redo List
+-- End of redo list --
+The current fleet is F001 CENTRAL EXPRESS.
+Please enter command [ c | s | a | m | d | sf | sa | cn | u | r | l | x ] :- x
+Thank you for using SDFMS. System terminated.
